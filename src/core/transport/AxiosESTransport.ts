@@ -10,7 +10,7 @@ export interface ESTransportOptions {
 }
 
 export class AxiosESTransport extends ESTransport{
-  static timeout = 5000
+  static timeout = 20000
   axios:axios.AxiosInstance
   options:ESTransportOptions
 
